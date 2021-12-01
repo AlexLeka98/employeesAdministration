@@ -16,7 +16,7 @@ const date = new Date();
 const data = {
     //"documentTitle": "RECEIPT", //Defaults to INVOICE
     "currency": "EUR",
-    "taxNotation": "vat", //or gst
+    "taxNotation": "vat", //or gst  
     "marginTop": 25,
     "marginRight": 25,
     "marginLeft": 25,
