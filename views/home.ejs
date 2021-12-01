@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Color Palet https://coolors.co/000814-001d3d-003566-ffc300-ffd60a -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./main.css"> -->
+    <link rel="stylesheet" href="/stylesheets/main.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jQuery library -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" -->
+
+    <!-- jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+    <!-- <script src="./script.js"></script> -->
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="register" id="export">
+            <ul>
+                <% for (driver of drivers) { %>
+                    <li>
+                        <button class="driver">Name Surname</button>
+                        <form action="">
+                            <label for="startingTime">Start</label>
+                            <input id='startingTime' type="time">
+                            <label for="finishTime">Finish</label>
+                            <input id='finishTime' type="time">
+                            <p class="payment"></p>
+                            <p class="total__money"></p>
+                            <p class="btw"></p>
+                            <p class="bruto"></p>
+                        </form>
+                    </li>
+                    <% } %>
+            </ul>
+
+
+            <div>
+                <div class="all_total__money"></div>
+                <div class="all_btw"></div>
+                <div class="all_bruto"></div>
+            </div>
+            <button class="exportButton" onclick="getData()">Export</button>
+        </div>
+        <button class="exportButton" id="pdfExportButton">Download PDF</button>
+
+        <iframe src="/invoice.ejs" style="display:none"></iframe>
+
+        
+    </div>
+</body>
+
+<script src="/scripts/main.js"></script>
+<script src="/scripts/invoice.js"></script>
+
+
+</html>
