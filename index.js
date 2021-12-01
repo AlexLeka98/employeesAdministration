@@ -35,7 +35,7 @@ const data = {
     },
     "client": {
         "company": "Kathodon",
-        "address": "Klaverstraat 74 B",
+        "address": "Klaverstraat 74 A",
         "zip": "4567 CD",
         "city": "Clientcity",
         "country": "Clientcountry"
@@ -43,7 +43,7 @@ const data = {
         //"custom2": "custom value 2",
         //"custom3": "custom value 3"
     },
-    "invoiceNumber": "2021.0001",
+    "invoiceNumber": "2021.0002",
     "invoiceDate": `${date.toLocaleDateString("en-US")}`,
     "services": [
         {
