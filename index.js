@@ -74,6 +74,7 @@ const drivers = [
     { name: 'Alex', surname: 'Tsara', age: '24', nationality: 'Albanian', euro: '16', receive: '18' },
     { name: 'Usni', surname: 'Nojokepls', age: '38', nationality: 'Morocco', euro: '17', receive: '19' },
     { name: 'Mark', surname: 'Jokes', age: '38', nationality: 'Morocco', euro: '17', receive: '19' },
+    { name: 'Jack', surname: 'Yotobalo', age: '29', nationality: 'Albania', euro: '6', receive: '20' },
 ];
 
 
