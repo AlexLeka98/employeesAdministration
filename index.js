@@ -64,7 +64,7 @@ const data = {
 
 //Create your invoice! Easy!
 easyinvoice.createInvoice(data, async (result) => {
-    await fs.writeFileSync("invoice.pdf", result.pdf, 'base64');
+    await fs.writeFileSync("Invoice.pdf", result.pdf, 'base64');
 });
 
 
