@@ -35,7 +35,7 @@ const data = {
     },
     "client": {
         "company": "Kathodon",
-        "address": "Klaverstraat 74 A",
+        "address": "Klaverstraat 74 B",
         "zip": "4567 CD",
         "city": "Clientcity",
         "country": "Clientcountry"
