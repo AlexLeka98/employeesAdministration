@@ -25,7 +25,7 @@ const data = {
     //"logoExtension": "png", //only when logo is base64
     "sender": {
         "company": "Almanvi",
-        "address": "Walchersestraat 77",
+        "address": "Walchersestraat 77 A",
         "zip": "3083 NH",
         "city": "Rotterdam",
         "country": "Netherlands"
