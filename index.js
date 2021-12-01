@@ -27,7 +27,7 @@ const data = {
         "company": "Almanvi",
         "address": "Walchersestraat 77",
         "zip": "3083 NH",
-        "city": "Amsterdam",
+        "city": "Den Haag",
         "country": "Netherlands"
         //"custom1": "custom value 1",
         //"custom2": "custom value 2",
