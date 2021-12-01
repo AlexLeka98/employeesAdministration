@@ -43,7 +43,7 @@ const data = {
         //"custom2": "custom value 2",
         //"custom3": "custom value 3"
     },
-    "invoiceNumber": "2021.0001",
+    "invoiceNumber": "2021.0003",
     "invoiceDate": `${date.toLocaleDateString("en-US")}`,
     "services": [
         {
@@ -54,7 +54,7 @@ const data = {
         },
         {
             "quantity": "1",
-            "description": "Driving, 13:00-16:00, 13€ per hour",
+            "description": "Driving, 13:00-19:20, 17€ per hour",
             "tax": 21,
             "price": 10.45
         }
