@@ -34,8 +34,8 @@ const data = {
         //"custom3": "custom value 3"
     },
     "client": {
-        "company": "Client Corp",
-        "address": "Clientstreet 456",
+        "company": "Kathodon",
+        "address": "Klaverstraat 74 A",
         "zip": "4567 CD",
         "city": "Clientcity",
         "country": "Clientcountry"
